@@ -9,18 +9,22 @@ if (!defined("DEF_PROJECT")) {
                     See and complete in "project.css" to finish selecting the background.
     string $text : Description of the project. Using decorative tag is allowed.
     string $videoLink : Source of the video.
+    string $videoText : Text replacing the video. Leave NULL to not replace the video.
     */
     function addProject(
         string $title,
         string $class,
         string $text,
-        string $videoLink
+        string $videoLink="",
+        string $videoText=NULL
     ) {
         echo "
             <article class='$class' id='$class'>
                 <h2>$title</h2>
-                <p class='info'>$text</p>
-                <video src='$videoLink' controls></video>
+                <p class='info dark-bg'>$text</p>
+                ".($videoText === NULL ? 
+                    "<video src='$videoLink' controls></video>" : 
+                    "<p class='no-video dark-bg'>$videoText</p>")."
             </article>
         ";
     }

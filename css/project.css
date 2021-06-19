@@ -4,7 +4,7 @@ article > h2 {
 
 p, video {
   position: absolute;
-  width: 47%;
+  width: 46%;
   margin: 2%;
 
   top:50%;
@@ -12,14 +12,18 @@ p, video {
 
 }
 
-video {
+video, .no-video {
   margin-right: 2%;
   right: 0;
 }
 
-.info {
+.info, .no-video {
+  margin: 1%;
+  padding: 20px 1%;
+}
+
+.dark-bg {
   background-color: #000a;
-  padding: 20px 10px;
 }
 
 .tankulator_py { background-image: url(../img/tankulator_py.png); }
@@ -27,3 +31,4 @@ video {
 .lightball { background-image: url(../img/lightball.png); }
 .pymagicmaze { background-image: url(../img/pymagicmaze.png); }
 .slay_the_spire { background-image: url(../img/slay_the_spire.png); }
+.hiraizumi_web { background-image: url(../img/hiraizumi_web.png); }

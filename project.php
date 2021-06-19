@@ -26,6 +26,8 @@
       <a href="#tankulator_unity">Tankulator Unity</a>
       <a href="#lightball">LightBall</a>
       <a href="#pymagicmaze">PyMagic-Maze</a>
+      <a href="#slay_the_spire">Slay the Spire</a>
+      <a href="#hiraizumi_web">Site web de Hiraizumi</a>
     </nav>
 
     <section>
@@ -68,8 +70,7 @@
           "PyMagic-Maze",
           "pymagicmaze",
           "Ce projet est un projet imposé lors de ma 1<sup>ère</sup> année de DUT informatique de Marne-la-Vallée.<br>
-          le but du projet était de recréer le jeu de société <b>Magic-Maze</b> sur Python.<br>
-          Le code de ce projet a été bien organisé pour être facilement lisible et permettre à d'autres personnes de comprendre et éditer le code, facilitant le travail d'équipe.",
+          le but du projet était de recréer le jeu de société <b>Magic-Maze</b> sur Python.<br>",
           "video/pymagicmaze.mp4"
         );
 
@@ -83,6 +84,20 @@
           - Le but du projet n'était pas de faire un beau jeu, juste de gérer de nombreuses données.<br>
           - Dû à une contrainte scolaire, j'étais obligé d'utiliser une librarie graphique très mal optimisée.",
           "video/slay_the_spire.mp4"
+        );
+        
+        addProject(
+          "Site web de Hiraizumi",
+          "hiraizumi_web",
+          "Ce site web présente <b>Hiraizumi</b>, une ville située au Japon et placée au patrimoine mondiale de l'Unesco.
+          Ce site fait découvrir ce qu'est Hiraizumi et tous les lieux intérressants à visiter pour aider les visiteurs du site à préparer leurs voyages pour cette ville.<br>
+          <br>
+          Ce projet a été réalisé avec 3 autres collègues de DUT Informatique. 
+          Sur ce projet j'était le <b>support du groupe</b>, c'est à dire que j'ai travaillé à toutes les étapes de la conception du site.<br>
+          Pour plus d'informations sur le partage des tâches, 
+          allez directement sur la page \"<a target='_blank' href='https://perso-etudiant.u-pem.fr/~abaiet/unesco/us.php'>qui sommes nous</a>\" du site.",
+          "",
+          "Allez directement voir le site <a target='_blank' href='https://perso-etudiant.u-pem.fr/~abaiet/unesco/index.php'>ici</a>, ce sera mieux qu'une vidéo de démonstration !"
         );
       ?>
     </section>
