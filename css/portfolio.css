@@ -28,22 +28,33 @@
   border-width: 1px;
 }
 
+.pres_part ul {
+  padding: 0;
+}
+
 .pres_part li {
+  /* Ancienne mis en forme 
   border-style: solid;
   border-radius: 8px;
   border-width: 2px;
   border-color: #ffffff40;
-
   margin: 16px 0;
-  padding: 8px;
+  padding: 8px; */
+  
+  text-align: center;
+  list-style-type: none;
 }
 
 .competences .pres_part {
   height: auto;
 }
 
-.competences h2, .competences h3, .competences h4 {
+.competences h4 {
   margin: 10px 0 10px 0;
+}
+
+.competences h2, .competences h3 {
+  margin: 30px 0 10px 0;
 }
 
 .competences ul {
