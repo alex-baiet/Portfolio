@@ -2,7 +2,7 @@ document.body.innerHTML += "<div class='no_scroll' id='bg-area'><div id='bg-anim
 var bg = document.getElementById("bg-anim");
 var numSquare = 0;
 var allSquares = [];
-const maxShape = 10;
+const maxShape = 100;
 var lastUpdate = Date.now();
 var debugCount = 0;
 
